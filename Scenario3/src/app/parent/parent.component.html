@@ -1,0 +1,7 @@
+<!-- <p>parent works!</p> -->
+
+<input [(ngModel)]="enteredText" type="text">
+<br><br>
+<h2>Parent {{enteredText}}</h2>
+
+<app-child [parentText]="enteredText"></app-child>

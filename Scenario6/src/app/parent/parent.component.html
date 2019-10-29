@@ -1,0 +1,6 @@
+<!-- <p>parent works!</p> -->
+
+<!-- <h2>Parent {{receivedText}}</h2> -->
+<app-child1 (child1Event)="receivedText=$event"></app-child1>
+
+<app-child2 [parentText]="receivedText"></app-child2>
